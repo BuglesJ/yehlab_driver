@@ -509,8 +509,8 @@ class SR850(VisaInstrument):
          #'aux3': '7',
          #'aux4': '8',
          'freq': '9',   
-          'ch1': '10',
-          'ch2': '11'  
+         # 'ch1': '10',
+         # 'ch2': '11'
     }
     
     def snap(self, *parameters: str) -> Tuple[float, ...]:
